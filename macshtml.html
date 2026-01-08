@@ -1,0 +1,166 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="uft-8" />
+    <meta name="viewport" content="widtch=device-width,initial-scale=1" />
+    <title>Mac's Precision Painting</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <header class="site-header">
+        <div class="container header-inner">
+            <a class="brand" href="#">
+               <img surc="C:\Users\jayra\OneDrive\Desktop\Macs photos\macslogo.JPEG" alt="macslogo" class="logo" />
+            </a>
+            <nav class="top-nav">
+                <a class="phone" href="tel:xxx-xxx-xxxx">xxx-xxx-xxxx</a>
+                <button id="estimateBtn" class="btn btn-primary">Request Free Estimate</button>
+                <button id="menuToggle" class="menu-toggle" aria-expanded="false"aria-controls="mainNav">☰</button>
+            </nav>
+        </div>
+        <nav id="mainNav" class="main-nav" aria-hidden="true">
+            <div class="container">
+                <a href="#about">About</a>
+                <a href="#services">Services</a>
+                <a href="#gallery">Gallery</a>
+                <a href="#contact">Contact</a>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero" id="hero"></section>
+            <div class="container hero-inner">
+                <div class="hero-copy">
+                    <h1>This is a test, website not in use</h1>
+                    <h1>Veteran & Firefighter Owned Painting</h1>
+                    <p class="lead">Service. Integrity. Excellence. Precision painting for homes and businesses that last.</p>
+                    <div class="hero-ctas">
+                        <a href="#contact" class="btn btn-primary">Get a Free Estimate</a>
+                        <a href="#gallery" class="btn btn-outline">See Our Work</a>
+                    </div>
+                </div>
+                <div class="hero-image">
+                    <img src="C:\Users\jayra\OneDrive\Desktop\Macs photos\house exterior.jpg" alt="house exterior" />
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="about container">
+            <h2>About Us</h2>
+            <p>We are a veteran and firefighter-owned painting company built on the values of service integrity, and excellence.</p>
+            <p>Our background in the military and fire service has shaped how we approach every project with discipline, attention to detail, and an unwavering commitment to doing the job right the first time.</p>
+            <p>We understand and trust is earned. That is why we treat every home and business as if it it were our own. Showing up on time, communicating clearly, and maintaining a clean and safe work enviornment. Fromprepartion to final walkthrough, we pride ourselves on professionalism, precision, and respect for our clients' property.</p>
+            <p>Our mission is simple: to deliver high-puality painting services that stand the test of time while providing an honest and dependable experience that our ccustomers can rely on. Whether it's a residential refresh or a commercial project, we bring the same dedication and pride in workmanship that we brought to serving our communitiy and our country. When you hire us, you're not just getting a paint job - you're partnering with professionals who believe in hard work, accountability, and service above self.</p>
+        </section>
+
+        <section id="services" class="services">
+            <div class="container">
+                <h2>Services</h2>
+                <div class="service-grid">
+                    <article class="service">
+                        <img src="C:\Users\jayra\OneDrive\Desktop\Macs photos\interior house.jpg" alt="interior house" />
+                        <h3>Interior Painting</h3>
+                        <p>Clean lines, careful prep, and minimal disruption - from trim to ceilings and everything in between</p>
+                    </article>
+
+                    <article class="service">
+                        <img src="C:\Users\jayra\OneDrive\Desktop\Macs photos\exterior painting.jpg" alt="exterior painting" />
+                        <h3>Exterior Painting</h3>
+                        <p>Durable, weather-resistant finishes that boost curb appeal and protect your investment.</p>
+                    </article>            
+
+                     <article class="service">
+                        <img src="C:\Users\jayra\OneDrive\Desktop\Macs photos\paint options.jpeg" alt="color options" />
+                         <h3>Free Color Consultation</h3>
+                         <p>Expert recommendations to help you choose colors that fit your home and lifestyle.</p>
+                    </article>
+
+                     <article class="service">
+                        <img src="C:\Users\jayra\OneDrive\Desktop\Macs photos\cabinet work.jpg" alt="cabinet work" />
+                        <h3>Cabinet</h3>
+                        <p>Tough long lasting cabinetry that will transform your kitchen and remain sturdy for the years to come.</p>
+                    </article>
+                 </div>
+                </div>
+            </section>
+
+            <section id="gallery" class="gallery container">
+                <h2>Gallery</h2>
+                <div class="gallery-grid">
+                    <img src="images/gallery1.jpg" alt="Gallery image 1"/>
+                    <img src="images/gallery2.jpg" alt="Gallery image 2"/>
+                    <img src="images/gallery3.jpg" alt="Gallery image 3"/>
+                    <img src="images/gallery4.jpg" alt="Gallery image 4"/>
+                </div>
+            </section>
+
+            <section id="testimonials" class="testimonials">
+                <div class="container">
+                    <h2>What your neighbors are saying</h2>
+                    <div class="testimonial-cards">
+                        <blockquote class="testimonial">
+                            <p>"You won't be disappointed - our house looks brand new. Professional, on time, and meticulous</p>
+                            <cite>- Joshua, Local homeowner</cite>
+                        </blockquote>
+                    </div>
+                </div>
+            </section>
+
+            <section id="contact" class="contact container">
+                <h2>Contact and Request Free Estimate</h2>
+                <div class="contact-grid">
+                    <form id="estimateForm" class="estimate-form" autocomplete="off">
+                        <label for="name">Full name</label>
+                        <input id="name" name="name" required />
+
+                        <label for="phone">Phone number</label>
+                        <input id="phone" name="phone" required />
+
+                        <label for="serviceType">Service Type</label>
+                        <select id="serviceType" name="serviceType" required>
+                            <option value="">Select a service</option>
+                            <option value="interior">Interior Painting</option>
+                            <option value="exterior">Exterior Painting</option>
+                            <option value="cabinetry">Cabinetry</option>
+                            <option value="consultation">Free Color Consultation</option>
+                        </select>
+
+                        <label for="message">Project details</label>
+                        <textarea id="message" name="message" rows="4"></textarea>
+
+                        <div class="form-actions">
+                            <button type="submit" class="btn btn-primary">Request Free Estimate</button>
+                            <button type="button" id="callBtn" class="btn btn-outline">Call Us</button>
+                        </div>
+                        <p class="form-note">We respect your privacy. We'll only use this information to contact you about your estimate</p>
+                    </form>
+
+                    <aside class="contact-info">
+                        <h3>Mac's Precision Painting</h3>
+                        <p><strong>Veteran & Firefighter Owned</strong></p>
+                        <p>Service area: Treasure and Space Coast and surrounding communities</p>
+                        <p><strong>Phone:</strong> <a href="tel:xxx-xxx-xxxx"> xxx-xxx-xxxx</a></p>
+                        <p><strong>Email:</strong> <a href="mailto:info@macspainting.com">info@macspainting.com</a></p>
+                        <div class="badge">
+                            <img src="images/crew.jpg" alt="Team photo" />
+                            <p>Licensed & Insured; Clean, safe work sites; On-time crews</p>
+                        </div>
+                    </aside>
+                </div>
+            </section>
+        </main>
+
+    <footer class="site-footer">
+        <div class="container footer-inner">
+            <p>&copy; 2024 Mac's Precision Painting. All rights reserved.</p>
+            <nav class="footer-nav">
+                <a href="#about">About</a>
+                <a href="#services">Services</a>
+                <a href="#contact">Contact</a>
+            </nav>
+        </div>
+    </footer>
+</body>
+</html>
+
