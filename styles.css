@@ -25,7 +25,7 @@ body{
 .site-header{background:#fff;border-bottom:1px solid #e6e9ee;position:sticky;top:0;z-index:40}
 .header-inner{display:flex;align-items:center;justify-content:space-between;padding:0.75rem 0}
 .brand{display:flex;align-items:center;text-decoration:none}
-.logo{height:150px;width:auto}
+.logo{height:200px;width:auto}
 .top-nav{display:flex;align-items:center;gap:0.5rem}
 .phone{color:var(--dark);text-decoration:none;font-weight:600}
 .btn{padding:0.6rem 0.9rem;border-radius:6px;border:1px solid transparent;cursor:pointer;font-weight:600}
@@ -94,4 +94,5 @@ body{
     .gallery-grid img{height:120px}
     .logo{height:48px}
 }
+
 
