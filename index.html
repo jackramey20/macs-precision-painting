@@ -116,32 +116,13 @@
             <section id="contact" class="contact container">
                 <h2>Contact and Request Free Estimate</h2>
                 <div class="contact-grid">
-                    <form id="estimateForm" class="estimate-form" autocomplete="off">
-                        <label for="name">Full name</label>
-                        <input id="name" name="name" required />
+                    <form action="https://formspree.io/f/mpqqajbv" method="POST">
+                        <input type="text" name="name" placeholder="Your full name" required>
+                        <input type="email" name="email" placeholder="E-mail" required>
+                        <input type="text" name="address" placeholder="Job Address" required>
+                        <input type="message" placeholder="Describe your project" required></textarea>
 
-                        <label for="phone">Phone number</label>
-                        <input id="phone" name="phone" required />
-
-                        <label for="email">E-mail</label>
-                        <input id="email" name="email" required />
-
-                        <label for="serviceType">Service Type</label>
-                        <select id="serviceType" name="serviceType" required>
-                            <option value="">Select a service</option>
-                            <option value="interior">Interior Painting</option>
-                            <option value="exterior">Exterior Painting</option>
-                            <option value="cabinetry">Cabinetry</option>
-                            <option value="consultation">Free Color Consultation</option>
-                        </select>
-
-                        <label for="message">Explain your project</label>
-                        <textarea id="message" name="message" rows="4"></textarea>
-
-                        <div class="form-actions">
-                            <button type="submit" class="btn btn-primary">Request Free Estimate</button>
-                            <button type="button" id="callBtn" class="btn btn-outline">Call Us</button>
-                        </div>
+                        <button type="submit">Request Estimate</button>
                         <p class="form-note">We respect your privacy. We'll only use this information to contact you about your estimate</p>
                     </form>
 
@@ -173,6 +154,7 @@
     <script src="script.js"></script>
 </body>
 </html>
+
 
 
 
