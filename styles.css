@@ -9,12 +9,21 @@
     color-scheme: light;
 }
 
+.brand {
+    display: flex;
+    flex-direction: column;
+    alight-items: center;
+    text-decoration: none;
+}
+
 .brand h1 {
-    font-size: 1.5rem;
+    font-size: 1.8rem;
     margin: 0;
-    color: #4CAF50;
+    color: #000;
+    font-family: "Georgia, serif;
     font-weight: 700;
-    line-height: 1;
+    text-alight: center;
+}
 
 *{box-sizing:border-box}
 html,body{height:100%}
@@ -168,6 +177,7 @@ body{
         z-index: 999;
     }
  }
+
 
 
 
