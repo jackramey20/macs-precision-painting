@@ -38,14 +38,27 @@
     align-items: center;
     justify-content: center;
     color: white;
+    overflow: hidden;
 }
 
 .hero-overlay {
+    position: relative;
+    z-index: 2;
     background-color: rgba(0, 0, 0, 0.5);
     padding: 2rem;
     text-align: center;
     border-radius: 8px;
     max-width: 800px;
+}
+
+.hero-image {
+    display: none;
+}
+
+.hero img {
+    width: 100%
+    height: auto;
+    object-fit: cover;
 }
 
 .hero h1 {
@@ -239,6 +252,7 @@ body{
         z-index: 999;
     }
  }
+
 
 
 
