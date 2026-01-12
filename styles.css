@@ -176,7 +176,7 @@ body{
 
 /* Contact */
 .contact{padding:2rem 0}
-.contact-grid{display:grid;grid-template-columns:1fr 320px;gap:1.5rem;align-items:start}
+.contact-grid{display:grid;grid-template-columns:1fr 320px;gap:1.5rem;align-items:center}
 .estimage-form{background:#fff;padding:1rem;border-radius:8px;box-shadow:0 6px 18px rgba(15,23,32,0.04)}
 .estimate-form label{display:block;margin-top:0.5rem;font-weight:600}
 .estimate-form input,.estimate-form textarea,.estimate-form select{width:100%;padding:0.6rem;border:1px solid #e6e9ee;border-radius:6px;margin-top:0.25rem}
@@ -342,6 +342,7 @@ body{
         text-align: center;
     }
 }
+
 
 
 
