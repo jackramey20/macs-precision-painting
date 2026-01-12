@@ -108,10 +108,25 @@ body{
     line-height:1.5;
 }
 
+.site-header .brand{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    text-align: center;
+}
+
+.header-inner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+
 .logo {
     display: block;
     margin: 0 auto;
-    max-width: 300px;
+    max-width: 250px;
     height: auto;
 }
 
@@ -174,6 +189,14 @@ body{
 .footer-inner a{color:#cfead1;text-decoration:none}
 
 /* Estimate form */
+
+}
+
+.contact-grid {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+}
 
 .estimate-form {
     max-width: 500px;
@@ -267,6 +290,24 @@ body{
         gap: 1rem;
     }
 
+    .header-inner {
+        flex-direction: column;
+        text-align: center;
+
+    }
+
+    .estimate-form {
+        width: 90%
+    }
+
+.site-header .brand{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    text-align: center;
+
+
     .logo {
         max-width: 200px;
         height: auto;
@@ -301,6 +342,7 @@ body{
         text-align: center;
     }
 }
+
 
 
 
