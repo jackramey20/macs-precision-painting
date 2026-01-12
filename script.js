@@ -7,8 +7,8 @@ document.addEventListener('DOMContentLoaded', function() {
     if (menuToggle && mainNav) {
             menuToggle.addEventListener('click', () => {
                 const expanded = menuToggle.getAttribute('aria-expanded') === 'true';
-                menuToggle.setAttribute('aria-expanded',String(!expanded));
-                mainNav.style.display = expanded ? 'none' : 'block';
+                menuToggle.setAttribute('aria-expanded', String(!expanded));
+                mainNav.classList.toggle('open');
             });
         }
     // Estimate button scroll
@@ -19,16 +19,9 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     }
 
-    // Call Button
-    const callBtn = document.getElementById('callBtn');
-    if (callBtn) {
-        callBtn.addEventListener('click', () => {
-            window.location.href = 'tel:xxx-xxx-xxxx';
-        });
-    }
 
     // Simple form submit (client side only)
-    const form = document.getElementById('estimateForm');
+    const form = document.querySelector('estimate-form');
     if (form) {
         form.addEventListener('submit', function (e) {
             e.preventDefault();
@@ -44,3 +37,4 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     }
 });
+
