@@ -95,6 +95,13 @@ body{
     line-height:1.5;
 }
 
+.logo {
+    display: block;
+    margin: 0 auto;
+    max-width: 300px;
+    height: auto;
+}
+
 .container{max-width:var(--max-width);margin:0 auto;padding:1rem}
 
 .site-header{background:#fff;border-bottom:1px solid #e6e9ee;position:sticky;top:0;z-index:40}
@@ -113,12 +120,8 @@ body{
 .main-nav .container{display:flex;gap:1rem;padding:0.5rem 1rem}
 .main-nav a{color:var(--dark);text-decoration:none;padding:0.5rem 0}
 
-/* Hero */
-.hero{padding:2rem 0}
-.hero-inner{display:grid;grid-template-columns:1fr 480px;gap:2rem;align-items:center}
-.hero-copy h1{font-size:2rem;margin:0 0 0.5rem}
-.lead{color:var(--muted);margin-bottom:1rem}
-.hero-image img{width:100%;height:auto;border-radius:10px;box-shadow: 0 6px 18px rgba(15,23,32,0.08)}
+/* Hero - see above */
+
 
 /*About */
 .about{padding:2rem 0}
@@ -236,6 +239,7 @@ body{
         z-index: 999;
     }
  }
+
 
 
 
