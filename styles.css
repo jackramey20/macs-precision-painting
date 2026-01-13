@@ -181,6 +181,23 @@ body{
 .form-actions{display:flex;gap:0.5rem;margin-top:0.75rem}
 .form-note{font-size:0.85rem;color:var(--muted);margin-top:0.5rem}
 
+.social-links {
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 0.25rem;
+}
+
+.social-links a {
+    color: var(--brand-green);
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.social-links a:hover {
+    text-decoration: underline;
+}
+
 /* Footer */
 .site-footer{background:#0b1220;color:#fff;padding:1rem 0;margin-top:2rem}
 .footer-inner{display:flex;justify-content:space-between;align-items:center;gap:1rem}
@@ -336,6 +353,7 @@ body{
     }
 }
         
+
 
 
 
